@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"Khata View",
+    "version":"1.0.0",
+    "description":"This extension tracks your overall budget",
+    "icons":{
+        "128":"/assets/icon/money_128.png",
+        "48":"/assets/icon/money_48.png",
+        "16":"/assets/icon/money_16.png"
+    },
+    "browser_action":{
+        "default_icon": "/assets/icon/money_16.png",
+        "default_popup": "popup.html"
+    }
+}

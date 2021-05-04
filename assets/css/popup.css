@@ -1,0 +1,26 @@
+body{
+    width: 500px;
+    height: 500px;
+}
+.header{
+    text-align: center;
+    background-color: #198754;
+    color: whitesmoke;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dashboard{
+    height: 150px;
+    /* background-color: teal; */
+}
+
+.box{
+    height: 250px;
+    /* background-color: thistle; */
+}
+
+.footer{
+    background-color: beige;
+    text-align: center;
+}
