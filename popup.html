@@ -4,6 +4,9 @@
 <head>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/popup.css">
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/assets/js/popup.js"></script>    
     <title>Khata View</title>
 </head>
 
@@ -25,9 +28,9 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>10000</td>
-                        <td>2000</td>
-                        <td>8000</td>
+                        <td id="incomeTotal">-</td>
+                        <td id="expTotal">-</td>
+                        <td id="total">-</td>
                     </tr>
                 </tbody>
             </table>
@@ -39,7 +42,7 @@
                     <div class="card p-2">
                         <div class="form-group">
                             <label for="balance">Income</label>
-                            <input class="form-control" type="text">
+                            <input class="form-control" id="incomeAmt"  type="number">
                         </div>
                         <br>
                         <div class="form-group">
@@ -51,7 +54,7 @@
                             </select>
                         </div>
                         <br>
-                        <button class="btn btn-success btn-block">+ Add</button>
+                        <button type="button" id="incomeBtn" class="btn btn-success btn-block">+ Add</button>
                     </div>
                 </div>
 
@@ -61,7 +64,7 @@
                     <div class="card p-2">
                         <div class="form-group">
                             <label for="expense">Expense</label>
-                            <input class="form-control" type="text">
+                            <input id="expAmt" class="form-control" type="number">
                         </div>
                         <br>
                         <div class="form-group">
@@ -76,7 +79,7 @@
                             </select>
                         </div>
                         <br>
-                        <button class="btn btn-success btn-block">+ Add</button>
+                        <button id="expBtn" class="btn btn-success btn-block">+ Add</button>
                     </div>
                 </div>
             </div>
@@ -84,7 +87,7 @@
       
     </div>
     <div class="footer">
-        <h3 class="p-2">footer</h3>
+        <h5 class="p-2">Quick panel</h5>
     </div>
 </body>
 
