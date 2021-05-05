@@ -12,9 +12,11 @@
         "default_icon": "/assets/icon/money_16.png",
         "default_popup": "popup.html"
     },
+    "options_page":"options.html",
 
     "permissions":[
-        "storage"
+        "storage",
+        "notifications"
     ]
 
 }
