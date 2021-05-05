@@ -29,8 +29,8 @@
                 <tbody>
                     <tr>
                         <td id="incomeTotal">-</td>
-                        <td>2000</td>
-                        <td>8000</td>
+                        <td id="expTotal">-</td>
+                        <td id="total">-</td>
                     </tr>
                 </tbody>
             </table>
@@ -45,15 +45,15 @@
                             <input class="form-control" id="incomeAmt"  type="number">
                         </div>
                         <br>
-                        <!-- <div class="form-group">
+                        <div class="form-group">
                             <label for="category">Category</label>
                             <select class="form-control" name="category">
                                 <option>Salary</option>
                                 <option>Allowance</option>
                                 <option>Other</option>
                             </select>
-                        </div> -->
-                        <!-- <br> -->
+                        </div>
+                        <br>
                         <button type="button" id="incomeBtn" class="btn btn-success btn-block">+ Add</button>
                     </div>
                 </div>
@@ -64,10 +64,10 @@
                     <div class="card p-2">
                         <div class="form-group">
                             <label for="expense">Expense</label>
-                            <input class="form-control" type="number">
+                            <input id="expAmt" class="form-control" type="number">
                         </div>
                         <br>
-                        <!-- <div class="form-group">
+                        <div class="form-group">
                             <label for="expenses_category">Category</label>
                             <select class="form-control" name="expenses_category">
                                 <option>Food</option>
@@ -77,9 +77,9 @@
                                 <option>Household</option>
                                 <option>Other</option>
                             </select>
-                        </div> -->
-                        <!-- <br> -->
-                        <button class="btn btn-success btn-block">+ Add</button>
+                        </div>
+                        <br>
+                        <button id="expBtn" class="btn btn-success btn-block">+ Add</button>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
       
     </div>
     <div class="footer">
-        <h3 class="p-2">footer</h3>
+        <h5 class="p-2">Quick panel</h5>
     </div>
 </body>
 
