@@ -4,6 +4,9 @@
 <head>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/popup.css">
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/assets/js/popup.js"></script>    
     <title>Khata View</title>
 </head>
 
@@ -25,7 +28,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>10000</td>
+                        <td id="incomeTotal">-</td>
                         <td>2000</td>
                         <td>8000</td>
                     </tr>
@@ -39,19 +42,19 @@
                     <div class="card p-2">
                         <div class="form-group">
                             <label for="balance">Income</label>
-                            <input class="form-control" type="text">
+                            <input class="form-control" id="incomeAmt"  type="number">
                         </div>
                         <br>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label for="category">Category</label>
                             <select class="form-control" name="category">
                                 <option>Salary</option>
                                 <option>Allowance</option>
                                 <option>Other</option>
                             </select>
-                        </div>
-                        <br>
-                        <button class="btn btn-success btn-block">+ Add</button>
+                        </div> -->
+                        <!-- <br> -->
+                        <button type="button" id="incomeBtn" class="btn btn-success btn-block">+ Add</button>
                     </div>
                 </div>
 
@@ -61,10 +64,10 @@
                     <div class="card p-2">
                         <div class="form-group">
                             <label for="expense">Expense</label>
-                            <input class="form-control" type="text">
+                            <input class="form-control" type="number">
                         </div>
                         <br>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label for="expenses_category">Category</label>
                             <select class="form-control" name="expenses_category">
                                 <option>Food</option>
@@ -74,8 +77,8 @@
                                 <option>Household</option>
                                 <option>Other</option>
                             </select>
-                        </div>
-                        <br>
+                        </div> -->
+                        <!-- <br> -->
                         <button class="btn btn-success btn-block">+ Add</button>
                     </div>
                 </div>
